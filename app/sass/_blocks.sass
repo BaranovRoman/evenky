@@ -1,0 +1,58 @@
+@import "variables.sass"
+
+.block-item
+	+col()
+	+size(3)
+	background: #fff
+	height: 174px
+	margin-bottom: 30px
+	padding-top: 33px
+	padding-left: 43px
+	position: relative
+	a
+		font-size: 30px
+		font-weight: 500
+.block-item.middle
+	+col()
+	+size(12)
+	height: 117px
+.block-item.big
+	+col()
+	+size(12)
+	height: 174px
+	padding: 0
+	.arrow
+		bottom: 45px
+	img
+		padding: 0 90px
+.arrow
+	background: url('../img/arrow.png') center no-repeat
+	background-size: cover
+	width: 39px
+	height: 25px
+	position: absolute
+	bottom: 26px
+	right: 30px
+.block-item.color
+	background-color: $blue
+	color: #fff
+	padding: 0
+	a
+		color: #fff
+.block-item.image
+	height: 205px
+	display: flex
+	flex-direction: column
+	.img-wrap
+		height: 100px
+	a
+		font-size: 20px
+		max-width: 233px
+.tar
+	width: 100%
+	text-align: right
+	a
+		margin-top: 18px
+		font-size: 17px
+		font-weight: 500
+		display: block

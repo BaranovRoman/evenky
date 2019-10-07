@@ -1,0 +1,25 @@
+git init = Создаём репозиторий с проектом
+
+echo >> README.md = Создаём файл конфигурации
+
+git config --global или --local user.name "username" = Создаём имя пользователя, локально или глобально.
+
+git config --global или --local user.email example@gmail.com = Создаём почту, локально или глобально.
+
+git add -A = Добавить все файлы(-A) в репозиторий и следить за ними. Так же можно с помощью *.html следить или добавить отдельные файлы.
+
+git status = Проверить состояние файлов
+
+git commit -a -m = Сохранить все файлы(-a) и (-m)оставить коментарий к ним.
+
+git log = Отследить изменения.
+
+git log --pretty=format:"%h %ad | %s%d [%an]" --graph --date=short = Отследить изменения в более красивой форме.
+
+git help = Документация.
+
+git remote add origin https://github.com/flashgrinder/mytemplate.git = Добавить файлы в репозиторий GitHub. В origin задаём своё имя.
+
+git push -u origin master = Загрузить файлы в репозиторий -u(пушить файлы по умолчанию).
+
+git push origin = Загрузить изменёные файлы в репозиторий.

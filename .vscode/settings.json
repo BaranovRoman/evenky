@@ -1,0 +1,21 @@
+{
+	"window.zoomLevel": -1,
+	"workbench.iconTheme": "material-icon-theme",
+	"files.autoSave": "afterDelay",
+	"window.menuBarVisibility": "toggle",
+	"editor.minimap.enabled": false,
+	"files.defaultLanguage": "html",
+	"editor.fontSize": 16,
+	"editor.tabSize": 4,
+	"workbench.editor.tabSizing": "shrink",
+	"editor.detectIndentation": false,
+	"editor.insertSpaces": false,
+	"editor.glyphMargin": false,
+	"editor.renderWhitespace": "boundary",
+	"editor.smoothScrolling": true,
+	"workbench.activityBar.visible": false,
+	"terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
+	"explorer.confirmDelete": false,
+	"explorer.confirmDragAndDrop": false,
+	"workbench.colorTheme": "Electron"
+}

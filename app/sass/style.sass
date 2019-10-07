@@ -1,0 +1,36 @@
+@import "smart-grid.sass"
+// @import "font-awesome.scss"
+@import "font.sass"
+@import "variables.sass"
+@import "header.sass"
+@import "menu.sass"
+@import "interface.sass"
+@import "search.sass"
+@import "quote.sass"
+@import "news.sass"
+@import "info.sass"
+@import "blocks.sass"
+@import "sites.sass"
+@import "footer.sass"
+@import "news-page.sass"
+@import "pagination.sass"
+
+@import "normalize.scss"
+
+*
+	box-sizing: border-box
+
+body
+	padding: 0
+	background-color: $bg
+	font-family: 'Ubuntu', sans-serif
+	font-size: 16px
+
+.wrapper
+	+wrapper()
+
+.wrapper-fluid
+	+wrapper-full()
+
+.debug
+	+debug(rgba(0, 0, 0, 0.3), 1px solid rgb(19, 138, 92))

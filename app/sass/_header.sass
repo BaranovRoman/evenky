@@ -1,0 +1,73 @@
+@import "variables.sass"
+
+header
+	background-image: url('../img/header-bg.png')
+	background-position: top
+	background-repeat: repeat-x
+	padding-top: 18px
+	padding-bottom: 25px
+	background-color: #fff
+.header-big
+	padding-bottom: 75px
+.header-top .name
+	font-size: 46px
+	padding: 0 30px
+.header-top .logo
+	background-repeat: no-repeat
+	background-position: center
+	width: 63px
+	height: 83px
+	display: block
+.header-top
+	padding: 11px 0
+	+row-flex()
+	span
+		font-weight: 700
+.header-col
+	+col()
+	+size(6)
+	display: flex
+	align-items: center
+.header-left
+	p
+		max-width: 270px
+		font-size: 14px
+		line-height: 22px
+	img
+		padding-left: 23px
+		padding-right: 39px
+.header-right
+	justify-content: flex-end
+	font-size: 14px
+	div
+		padding-left: 30px
+		&:first-child
+			padding-left: 0px
+	span
+		padding-left: 4px
+	.time
+		color: #a1543e
+		padding-left: 60px
+		position: relative
+		&:before
+			position: absolute
+			top: -1px
+			left: 33px
+			content: ''
+			width: 19px
+			height: 19px
+			background: url('../img/time.png') center no-repeat
+	.temp
+		color: #a1543e
+		padding-left: 39px
+		position: relative
+		&:before
+			position: absolute
+			top: -1px
+			left: 19px
+			content: ''
+			width: 13px
+			height: 21px
+			background: url('../img/temp.png') center no-repeat
+.header-wrapper
+	border-bottom: 1px solid darken($dark, 5%)

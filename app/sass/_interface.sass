@@ -1,0 +1,126 @@
+@import "variables.sass"
+a
+	color: #4a90e2
+	text-decoration: none
+	&:visited
+		color: #4a90e2
+.container
+	+wrapper()
+.container.narrow
+	padding-right: 160px
+.row
+	+row-flex()
+.main-nav
+	position: relative
+	margin-top: 15px
+	a
+		padding-right: 60px
+	#drop
+		display: none
+		margin-left: auto
+		padding-right: 0
+.sub-menu
+	display: none
+	position: absolute
+	margin-top: 35px
+	left: 0
+	flex-wrap: wrap
+	a
+		padding-right: 50px
+		margin-top: 15px
+.showed
+	display: flex
+section
+	padding-top: 43px
+	padding-bottom: 58px
+h2
+	font-size: 30px
+	font-weight: 500
+	margin-top: 0
+h1
+	font-size: 66px
+h4
+	font-size: 20px
+	font-weight: 500
+.breadcrumbs
+	a
+		margin-right: 50px
+		position: relative
+		&:after
+			content: '/'
+			position: absolute
+			right: -28px
+		&:last-child
+			&:after
+				display: none
+.content
+	+col()
+	+size(9)
+	background: #fff
+	padding: 56px 58px 45px 87px
+	&-left
+		+col()
+		+size(7.2)
+		p
+			font-size: 16px
+			line-height: 26px
+	&-right
+		+col()
+		+size(4.8)
+		padding-left: 85px
+.photo
+	&-title
+		font-size: 24px
+		font-weight: 300
+		line-height: 34px
+	&-descr
+		font-size: 16px
+		line-height: 24px
+.content.full
+	padding: 36px 135px 49px 34px
+.links
+	+col()
+	+size(3)
+	padding-left: 56px
+	h4
+		margin-top: 0
+		margin-bottom: 35px
+	ul
+		padding-inline-start: 0
+		li
+			list-style: none
+			font-size: 16px
+			line-height: 18px
+			padding-bottom: 30px
+			&:last-child
+				padding-bottom: 0
+	.active
+		color: #000
+.file
+	display: flex
+	align-items: flex-start
+	svg
+		width: 20px
+		height: 20px
+		margin-right: 14px
+	a
+		max-width: 930px
+	&-info
+		color: #8a8a8a
+		font-size: 14px
+		line-height: 21px
+		text-transform: uppercase
+		padding-left: 14px
+table
+	border-spacing: 12.5px 19px
+	margin-left: -12.5px
+	max-width: 971px
+	td
+		vertical-align: baseline
+		img
+			height: 222px
+			width: auto
+		p
+			color: #525252
+			font-size: 14px
+			line-height: 21px

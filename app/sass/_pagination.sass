@@ -1,0 +1,42 @@
+@import "variables.sass"
+
+
+.disabled
+	opacity: 0.2
+.pagination
+	display: flex
+	align-items: center
+	margin-top: 70px
+	a
+		display: flex
+		align-items: center
+		font-size: 16px
+		svg
+			margin-left: 15px
+			transform: translateY(1px) rotate(0deg)
+		.left-arr
+			margin-left: 0
+			margin-right: 15px
+.page
+	width: 48px
+	height: 40px
+	border-radius: 5px
+	background-color: #ffffff
+	font-size: 18px
+	line-height: 22px
+	color: #000
+	border: none
+	margin-right: 8px
+	margin-left: 8px
+	&:first-child
+		margin-left: 16px
+	&:last-child
+		margin-right: 16px
+	&:hover
+		cursor: pointer
+		background-color: $blue
+		color: #fff
+		transition: 0.4s
+.page.active
+	background-color: $blue
+	color: #fff
